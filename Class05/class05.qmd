@@ -1,0 +1,108 @@
+---
+title: "Class05: Data Vis with ggplot"
+author: "Neha (PID:A17567541)"
+format: pdf
+editor: visual
+---
+# Graphics systems in R
+
+There are many graphic systems in R for making plots and figures
+
+We have already played a little with **"baseR"**
+graphics and the `plot()` function
+
+Today we will start learning about a popular graphics package called `ggplot2()`
+
+This is an add on package. We will need to install it. I install it like I install any package with the `install.packages()` function. 
+
+```{r}
+plot(cars)
+```
+Before I can use the functions from a package, I have to load up the package from my "library". We use `library(ggplot2)` command to load it up. 
+
+```{r}
+library(ggplot2)
+ggplot(cars)
+```
+
+Every ggplot is made up of at least 3 things:
+-data (the numbers etc. that will go into your plot)
+-aes (how the columns of data map to the plot aesthetics)
+-geoms (how the plot actually looks, points, bars, lines, etc.)
+
+```{r}
+ggplot(cars) +
+  aes (x=speed, y=dist)+ geom_point()
+```
+
+For simple plots ggplot is more verbose- it takes more code than base R plot. 
+
+Add some more layers to our ggplot. The + sign needs to be at the end of each line
+
+```{r}
+ggplot(cars) +
+  aes (x=speed, y=dist)+ 
+  geom_point() +
+  geom_smooth(method="lm")+
+  labs(title="Stopping distance of old cars", subtitle= "A silly example plot")+
+  theme_bw()
+
+```
+```{r}
+url <- "https://bioboot.github.io/bimm143_S20/class-material/up_down_expression.txt"
+genes <- read.delim(url)
+head(genes)
+nrow(genes)
+colnames(genes)
+ncol(genes)
+table(genes$State)
+round(table(genes$State)/nrow(genes)*100,2)
+```
+```{r}
+p<-ggplot(genes)+
+  aes(x=Condition1, y=Condition2, col=State)+
+  geom_point()
+p+ scale_colour_manual(values=c("blue","gray","red"))+
+  labs(x="Control(no drug)", y="Drug Treatment",title="Gene Expression Changes Upon Drug Treatment")
+```
+```{r}
+# File location online
+url <- "https://raw.githubusercontent.com/jennybc/gapminder/master/inst/extdata/gapminder.tsv"
+
+gapminder <- read.delim(url)
+```
+```{r}
+ 
+library(dplyr)
+
+gapminder_2007 <- gapminder %>% filter(year==2007)
+
+```
+```{r}
+ggplot(gapminder_2007)+
+  aes(x=gdpPercap,y=lifeExp)+
+  geom_point()
+```
+```{r}
+p<-ggplot(gapminder_2007)+
+  aes(x=gdpPercap,y=lifeExp)+
+  geom_point(alpha=0.4)
+```
+
+
+```{r}
+p +
+  aes(color=continent, size=pop)
+```
+```{r}
+p+
+  aes(color=pop) + 
+geom_point(alpha=0.8)
+```
+
+```{r}
+p+aes(size=pop)
+```
+
+
+
