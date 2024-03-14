@@ -6,6 +6,6 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 
 - Class 5: [Data visualization with ggplot2](https://github.com/nehardeshpande/bimm143/blob/main/Class05/class05.pdf).
 - Class 6: [R functions and packages](https://github.com/nehardeshpande/bimm143/blob/main/Class%206%20lab%20sheet.pdf).
-- Class 7: [Introduction to Machine Learning]().
-- Class 8: 
+- Class 7: [Introduction to Machine Learning](https://github.com/nehardeshpande/bimm143/blob/main/Class07.pdf).
+- Class 8: [Breast Cancer Mini Project]().
 
