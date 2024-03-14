@@ -7,5 +7,5 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 - Class 5: [Data visualization with ggplot2]().
 
 
--Class 6: [R functions and packages]().
+- Class 6: [R functions and packages]().
 
