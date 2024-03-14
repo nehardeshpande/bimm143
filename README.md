@@ -4,7 +4,7 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 
 ## Contents
 
-- Class 5: [Data visualization with ggplot2]().
+- Class 5: [Data visualization with ggplot2](https://github.com/nehardeshpande/bimm143/blob/main/Class05/class05.pdf).
 
 
 - Class 6: [R functions and packages]().
