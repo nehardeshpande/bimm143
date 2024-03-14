@@ -13,4 +13,4 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 - Class 11: [Structural Bioinformatics 2](https://github.com/nehardeshpande/bimm143/blob/main/Class-11.pdf).
 - Class 12: [Genome sequencing](https://github.com/nehardeshpande/bimm143/blob/main/Class-12.pdf).
 - Class 13: [DESeq seq mini project](https://github.com/nehardeshpande/bimm143/blob/main/Class-13.pdf).
-- Class 14: [RNA seq mini project]()
+- Class 14: [RNA seq mini project](https://github.com/nehardeshpande/bimm143/blob/main/Class-14.pdf)
