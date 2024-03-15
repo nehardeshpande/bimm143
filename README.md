@@ -14,8 +14,8 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 - Class 12: [Genome sequencing](https://github.com/nehardeshpande/bimm143/blob/main/Class-12.pdf).
 - Class 13: [DESeq seq mini project](https://github.com/nehardeshpande/bimm143/blob/main/Class-13.pdf).
 - Class 14: [RNA seq mini project](https://github.com/nehardeshpande/bimm143/blob/main/Class-14.pdf)
-- Class 15: []().
-- Class 16: []().
-- Class 17: []().
-- Class 18: []().
-- Class 19: []().
+- Class 15: Performing common operations with Git. 
+- Class 16: Learning essential UNIX for Bioinformatics 
+- Class 17: [Analyzing sequencing data in the cloud]().
+- Class 18: [Pertussis resurgence mini project]().
+- Class 19: [Cancer mutation analysis mini project]().
