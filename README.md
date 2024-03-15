@@ -17,5 +17,5 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 - Class 15: Performing common operations with Git. 
 - Class 16: Learning essential UNIX for Bioinformatics 
 - Class 17: [Analyzing sequencing data in the cloud](https://github.com/nehardeshpande/bimm143/blob/main/class-17.pdf).
-- Class 18: [Pertussis resurgence mini project]().
+- Class 18: [Pertussis resurgence mini project](https://github.com/nehardeshpande/bimm143/blob/main/Class18.pdf).
 - Class 19: [Cancer mutation analysis mini project]().
