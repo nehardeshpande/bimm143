@@ -21,4 +21,4 @@ Classwork from W24 for BIMM 143 at UC San Diego.
 - Class 19: [Cancer mutation analysis mini project](https://github.com/nehardeshpande/bimm143/blob/main/Lab%2019.pdf).
 
 - Find a gene final project: 
-The aims of this project are to identify and characterize a novel protein from a non-human species, validate its novelty through sequence comparison and database searches, elucidate its evolutionary relationships through phylogenetic analysis, predict its structural features, and explore potential functional aspects such as ligand interactions through computational and experimental approaches.  [LInk]().
+ The aims of this project are to identify and characterize a novel protein from a non-human species, validate its novelty through sequence comparison and database searches, elucidate its evolutionary relationships through phylogenetic analysis, predict its structural features, and explore potential functional aspects such as ligand interactions through computational and experimental approaches.  [Link](https://github.com/nehardeshpande/bimm143/blob/main/Report.pdf).
